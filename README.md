@@ -40,3 +40,20 @@ In production, logs are the first place you look. These tools let you debug 404 
 Run it: `./log-crunch.sh apache_log##
 
 
+## Day 3 – Process & System Monitoring
+
+### What I Learned
+- **ps aux** – full process list, key columns (PID, %CPU, %MEM, STAT).
+- **Sorting** – `sort -nrk` to find top CPU/memory consumers.
+- **grep** for process filtering and excluding self.
+- **Zombie processes** – what they are, how to create and detect them (`ps aux | awk '$8 ~ /Z/'`).
+- **top** in batch mode (`top -l 1`) for CPU/memory snapshots.
+- **tee** – output to both screen and file simultaneously.
+
+### Built
+- `process-check.sh` – a script that captures total processes, top CPU & memory hogs, memory summary, CPU usage, and zombie detection. Scheduled with cron.
+
+### Why This Matters
+When a server slows down, the first step is `ps` and `top`. Knowing how to quickly spot resource hogs and zombies is essential for any cloud/DevOps role.
+
+
