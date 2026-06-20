@@ -56,4 +56,19 @@ Run it: `./log-crunch.sh apache_log##
 ### Why This Matters
 When a server slows down, the first step is `ps` and `top`. Knowing how to quickly spot resource hogs and zombies is essential for any cloud/DevOps role.
 
+## Day 4 – Users, Groups & Permissions
 
+### What I Learned
+- `id`, `whoami`, `groups` – check identity.
+- `dscl . -list /Users` – list users on macOS.
+- Creating a group with `dscl . -create /Groups/...`.
+- Adding a user to a group with `dscl . -append`.
+- `chown :group dir` – change group ownership.
+- `chmod 770` – owner and group full access, others none.
+- **Sticky bit** (`chmod +t`) – prevents deletion of files by non‑owners in a shared directory.
+
+### Built
+- `user-setup.sh` – automates group creation, user addition, and shared directory setup with sticky bit.
+
+### Why This Matters
+Servers are shared. Knowing how to set up safe, collaborative folders and restrict accidental deletion is a core sysadmin skill.
