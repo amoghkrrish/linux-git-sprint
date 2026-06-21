@@ -72,3 +72,19 @@ When a server slows down, the first step is `ps` and `top`. Knowing how to quick
 
 ### Why This Matters
 Servers are shared. Knowing how to set up safe, collaborative folders and restrict accidental deletion is a core sysadmin skill.
+
+## Day 5 – Disk Management & Troubleshooting
+
+### What I Learned
+- `df -h` to check space, `df -i` for inodes.
+- `dd` to create large test files.
+- `du -sh *` to find space‑consuming files.
+- Simulated a disk‑full scenario and cleaned it up.
+- Wrote a script that checks disk usage and alerts if >80%.
+- Scheduled it with cron.
+
+### Built
+- `disk-check.sh` – alerts when a mount point crosses a usage threshold.
+
+### Why This Matters
+A full disk can crash databases, stop log writing, and bring down services. Checking space proactively prevents outages.
