@@ -88,3 +88,18 @@ Servers are shared. Knowing how to set up safe, collaborative folders and restri
 
 ### Why This Matters
 A full disk can crash databases, stop log writing, and bring down services. Checking space proactively prevents outages.
+
+## Day 6 – Networking Essentials
+
+### What I Learned
+- `ifconfig` to view my IP address and interfaces.
+- `ping` and `nslookup` to test connectivity and DNS.
+- Started a real Python HTTP server and interacted with it using `curl`.
+- Checked what process is listening on a port with `lsof` and `netstat`.
+- Built a port scanner using `nc` to automatically check port status.
+
+### Built
+- `port-check.sh` – a reusable script that scans a range of ports and reports which are open.
+
+### Why This Matters
+In a cloud environment, every service is a port. If you can't connect to a database or an app, you check the port. These are the exact commands I'd use on a production server to debug network issues.
