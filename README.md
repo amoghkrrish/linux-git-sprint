@@ -103,3 +103,19 @@ A full disk can crash databases, stop log writing, and bring down services. Chec
 
 ### Why This Matters
 In a cloud environment, every service is a port. If you can't connect to a database or an app, you check the port. These are the exact commands I'd use on a production server to debug network issues.
+
+## Day 7 – Git Branching, Merging & Conflicts
+
+### What I Learned
+- Created feature branches with `git checkout -b`.
+- Made changes on separate branches to simulate teamwork.
+- Triggered a merge conflict and resolved it manually.
+- Used `git stash` to temporarily save uncommitted work.
+- Documented a Git cheat sheet.
+
+### Built
+- A resolved merge conflict with a cleaned `README.md`.
+- A `git-cheatsheet.md` for quick reference.
+
+### Why This Matters
+Conflict resolution is the #1 fear for new engineers. By practicing deliberately, I now know how to handle it without stress.
