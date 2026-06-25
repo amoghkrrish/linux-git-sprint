@@ -119,3 +119,18 @@ In a cloud environment, every service is a port. If you can't connect to a datab
 
 ### Why This Matters
 Conflict resolution is the #1 fear for new engineers. By practicing deliberately, I now know how to handle it without stress.
+
+## Day 8 – Git Reset, Revert & Stash
+
+### What I Learned
+- The three areas: working dir, staging area, repository.
+- `git reset --soft` / `--mixed` / `--hard` and when to use each.
+- `git revert` to safely undo a pushed commit.
+- `git stash` to save and restore work in progress.
+- `git clean` to remove untracked files.
+
+### Built
+- `undo-cheatsheet.md` – a quick reference for undoing mistakes.
+
+### Why This Matters
+Mistakes are inevitable. Knowing how to fix them without breaking the team’s history is a core engineering skill.
