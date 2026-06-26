@@ -134,3 +134,18 @@ Conflict resolution is the #1 fear for new engineers. By practicing deliberately
 
 ### Why This Matters
 Mistakes are inevitable. Knowing how to fix them without breaking the team’s history is a core engineering skill.
+
+## Day 9 – Bash Scripting: Loops & Conditionals
+
+### What I Learned
+- `for` loops to iterate over lists and files.
+- `if` statements to test files (`-f`, `-d`) and numbers (`-gt`, `-lt`).
+- How to combine loops and conditionals to make smart decisions.
+- How to create a timestamp variable with `$(date +...)`.
+- How to build a real backup script that skips existing copies.
+
+### Built
+- `backup.sh` – a reusable script that backs up chosen directories with a unique date stamp and avoids duplicates.
+
+### Why This Matters
+Automation isn’t about running one command; it’s about writing logic that runs differently based on the situation. These are the foundations of every DevOps script.
