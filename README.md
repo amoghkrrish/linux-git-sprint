@@ -149,3 +149,21 @@ Mistakes are inevitable. Knowing how to fix them without breaking the team’s h
 
 ### Why This Matters
 Automation isn’t about running one command; it’s about writing logic that runs differently based on the situation. These are the foundations of every DevOps script.
+
+## Day 10 – Cron & Automation Mastery
+
+### What I Learned
+- Cron syntax (`min hour dom month dow command`).
+- How to schedule scripts with `crontab -e`.
+- Built a disk cleaner that removes files older than N days using `find`.
+- Built a URL health‑checker that logs success/failure.
+- Adapted scripts for non‑interactive cron (auto mode).
+
+### Built
+- `disk-cleaner.sh` – interactive cleanup tool.
+- `disk-cleaner-auto.sh` – cron‑safe version.
+- `health-check.sh` – checks a URL and logs the HTTP status.
+
+### Why This Matters
+Automation without scheduling is incomplete. Cron lets you run backups, cleanups, and health checks automatically — exactly how production systems are maintained
+
