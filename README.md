@@ -167,3 +167,18 @@ Automation isn’t about running one command; it’s about writing logic that ru
 ### Why This Matters
 Automation without scheduling is incomplete. Cron lets you run backups, cleanups, and health checks automatically — exactly how production systems are maintained
 
+## Day 11 – Git Collaboration: Pull Requests
+
+### What I Learned
+- Forking a public repository on GitHub.
+- Cloning a fork and setting up remotes.
+- Creating a branch, making a small contribution.
+- Pushing the branch to my fork and opening a Pull Request.
+- The complete collaboration workflow used in real teams.
+
+### Built
+- A real PR to `firstcontributions/first-contributions`.
+- A personal cheat‑sheet (`pr-workflow.md`) for future reference.
+
+### Why This Matters
+Open source and professional teams run on pull requests. Mastering this flow is a non‑negotiable skill for any engineer.
