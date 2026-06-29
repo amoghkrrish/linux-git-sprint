@@ -182,3 +182,18 @@ Automation without scheduling is incomplete. Cron lets you run backups, cleanups
 
 ### Why This Matters
 Open source and professional teams run on pull requests. Mastering this flow is a non‑negotiable skill for any engineer.
+
+## Day 12 – Linux Security Basics (Firewall & SSH)
+
+### What I Learned
+- Checked firewall status and rules with `pfctl`.
+- Understood default deny vs. default allow policies.
+- Enabled SSH server, tested password login, then switched to key‑only authentication.
+- Disabled password authentication in `/etc/ssh/sshd_config`.
+- Verified that only public‑key authentication is accepted.
+
+### Built
+- `secure-server.sh` – a reference script for SSH hardening steps.
+
+### Why This Matters
+Security is everyone’s job in DevOps. Knowing how to lock down SSH and inspect firewall rules is required knowledge for any cloud role.
