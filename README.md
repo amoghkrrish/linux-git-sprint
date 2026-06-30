@@ -197,3 +197,20 @@ Open source and professional teams run on pull requests. Mastering this flow is 
 
 ### Why This Matters
 Security is everyone’s job in DevOps. Knowing how to lock down SSH and inspect firewall rules is required knowledge for any cloud role.
+
+## Day 13 – Advanced Git (Rebase & Cherry‑Pick)
+
+### What I Learned
+- Interactive rebase (`git rebase -i`) to squash multiple commits into one.
+- Cherry‑pick (`git cherry-pick`) to apply a specific commit from another branch.
+- How to combine both in a realistic workflow.
+
+### Built
+- Squashed a messy feature branch into a clean commit.
+- Cherry‑picked a hotfix onto a feature branch without merging.
+- Created a quick‑reference cheat sheet.
+
+### Why This Matters
+Clean history and precise code reuse are expectations in any professional team. These two commands keep the codebase maintainable.
+
+
