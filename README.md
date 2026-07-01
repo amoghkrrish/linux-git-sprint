@@ -214,3 +214,17 @@ Security is everyone’s job in DevOps. Knowing how to lock down SSH and inspect
 Clean history and precise code reuse are expectations in any professional team. These two commands keep the codebase maintainable.
 
 
+## Day 14 – Linux Troubleshooting Marathon
+
+### What I Learned
+- Diagnosed high CPU, disk full, port conflict, permission denied, memory leak, and cron issues.
+- Used `top`, `ps`, `df`, `du`, `lsof`, `netstat`, `find`, `chmod`, `kill`, and `crontab` in real scenarios.
+- Documented every incident with root cause and fix.
+
+### Built
+- `troubleshooting-log.md` – a personal incident log with 6 documented cases.
+
+### Why This Matters
+Every DevOps interview includes a troubleshooting scenario. Having hands‑on experience with the exact commands used in production gives me confidence and proof.
+
+
